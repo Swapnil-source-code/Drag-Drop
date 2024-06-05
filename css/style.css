@@ -43,7 +43,22 @@ body{
 }
 
 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  #left, #right {
+    width: 260px;
+    min-height: 351px;
+  }
+  .list {
+    height: 45px;
+    margin: 20px;
+  }
+}
 
-
-
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+   .container{
+    display: grid;
+   }
+}
 
